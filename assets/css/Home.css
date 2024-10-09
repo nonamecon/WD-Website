@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(10, 10, 10);
+    font-family: helvetica;
+}
+
+.navbar{
+    margin: 0 8rem 0 8rem;
+    padding: 0.2em;
+    border: 0px solid rgb(0, 0, 0);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: 0;
+}
+
+.nav1{
+    margin: 0 50rem 0 0 ;
+    margin-top: .8rem;
+
+    img.ramaco{
+        width: 130px;
+        height: auto;
+    }
+}
+
+p.link{
+    color: aliceblue;
+    font-family: calibri;
+    font-size: 18px;
+    margin: 1.3rem 0.2rem 0 30.5rem;
+}
+
+.nav2{
+    margin-top: 1.1rem;
+
+    img.linktree{
+        width: 115px;
+        height: auto;
+    }
+
+}
+
+.margin{
+    border: 0px solid rgb(255, 255, 255);
+    margin: 0 5rem 0 5rem ;
+    .hero{
+        background-color: black;
+        border: 5px solid rgb(255, 255, 255);
+        margin-top: 5rem;
+        height: 89.5vh;
+        color: rgb(255, 255, 255);
+        display: flex;
+            .hero_left{
+                width: 40vw;
+                border: 0px solid rgb(0, 0, 0);
+                display: flex;
+                justify-content: center;
+
+                img.conprof{
+                width: 73%;
+                height: auto;
+                }
+            }
+            .hero_right{
+                width: 50vw;
+                border: 0px solid rgb(0, 0, 0);
+                margin-right: 4rem;
+                text-align: right;
+
+                h1.head1{
+                    margin: 7rem 0 0 0;
+                    font-size: 65px;
+                    line-height: 60px;
+                    font-weight: lighter;
+                }
+
+                h1.head2{
+                    font-size: 85px;
+                    color: rgb(231, 64, 12);
+                    line-height: 90px;
+                    margin: 0 0 8rem 0;
+                    font-weight: 900;
+                }
+
+                h2.subhead1{
+                    font-size: 32px;
+                    font-weight:normal;
+                }
+            }
+    }
+
+    section.content{
+        border: 0px solid rgb(255, 255, 255);
+        margin-top: 1rem;
+        height: 99vh;
+        color: rgb(255, 255, 255);
+        display: flex;
+
+        .content_left{
+            background-color: black;
+            margin: 0 1rem 0 0;
+            padding-left: 1rem;
+            border: 5px solid whitesmoke;
+            width: 30vw;
+        }
+
+        .content_right{
+            background-color: black;
+            padding-left: 1rem;
+            border: 5px solid whitesmoke;
+            width: 70vw;
+        }
+    }
+
+    section.gallery{
+        border: 5px solid rgb(255, 255, 255);
+        margin-top: 1rem;
+        padding-left: 1rem;
+        height: 98vh;
+        color: rgb(255, 255, 255);
+        display: flex;
+    }
+
+    footer{
+        border: 5px solid rgb(255, 255, 255);
+        margin-top: 1rem;
+        height: 20vh;
+        color: rgb(255, 255, 255);
+    }
+}
+
