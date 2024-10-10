@@ -4,9 +4,9 @@ body{
 }
 
 .navbar{
-    margin: 0 8rem 0 8rem;
+    margin: 0 8vw 0 8vw;
     padding: 0.2em;
-    border: 0px solid rgb(0, 0, 0);
+    border: 0px solid rgb(255, 255, 255);
     display: flex;
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@ body{
 }
 
 .nav1{
-    margin: 0 50rem 0 0 ;
+    margin-right: 76%;
     margin-top: .8rem;
 
     img.ramaco{
@@ -30,7 +30,7 @@ p.link{
     color: aliceblue;
     font-family: calibri;
     font-size: 18px;
-    margin: 1.3rem 0.2rem 0 30.5rem;
+    margin: 1.3rem 0.2rem 0 0;
 }
 
 .nav2{
@@ -67,7 +67,7 @@ p.link{
             .hero_right{
                 width: 50vw;
                 border: 0px solid rgb(0, 0, 0);
-                margin-right: 4rem;
+                margin-right: 2rem;
                 text-align: right;
 
                 h1.head1{
@@ -125,10 +125,30 @@ p.link{
     }
 
     footer{
-        border: 5px solid rgb(255, 255, 255);
+        border: 0px solid rgb(255, 255, 255);
         margin-top: 1rem;
+        padding-left: 1rem;
+        padding-top: .2rem;
         height: 20vh;
-        color: rgb(255, 255, 255);
+        background-color: rgb(133, 0, 0);
+
+        .footer_head{
+            display: flex;
+            justify-content: center;
+
+            h3.footer_title{
+                color: aliceblue;
+            }
+        }
+/* text*/
+        .footer_content{
+            padding: 1px;
+
+            p.footer_body{
+                font-size: 12px;
+                color: white;
+            }
+        }
     }
 }
 
