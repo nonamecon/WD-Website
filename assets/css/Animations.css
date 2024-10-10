@@ -1,0 +1,19 @@
+a.linky{
+    color: white;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 20px;
+    background-color: #940000;
+    font-family: helvetica;
+    font-weight: medium;
+    text-decoration: none;
+}
+
+a.linky:hover{
+    background-color: #b90000;
+}
+
+img.image:hover{
+    transform: scale(1.05);
+}

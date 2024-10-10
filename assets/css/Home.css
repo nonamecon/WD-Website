@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(10, 10, 10);
+    background-color: #050505;
     font-family: helvetica;
 }
 
 .navbar{
     margin: 0 8vw 0 8vw;
     padding: 0.2em;
-    border: 0px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255); /* outline guide for sectioning */
     display: flex;
     position: fixed;
     top: 0;
@@ -44,18 +44,19 @@ p.link{
 }
 
 .margin{
-    border: 0px solid rgb(255, 255, 255);
+    border: 0px solid rgb(255, 255, 255); /* outline guide for sectioning */
     margin: 0 5rem 0 5rem ;
     .hero{
-        background-color: black;
-        border: 5px solid rgb(255, 255, 255);
+        background-color: #000000;
+        border-radius: 30px;
+        border: 1px solid #383838; /* outline guide for sectioning */
         margin-top: 5rem;
         height: 89.5vh;
         color: rgb(255, 255, 255);
         display: flex;
             .hero_left{
                 width: 40vw;
-                border: 0px solid rgb(0, 0, 0);
+                border: 0px solid #000000; /* outline guide for sectioning */
                 display: flex;
                 justify-content: center;
 
@@ -66,8 +67,8 @@ p.link{
             }
             .hero_right{
                 width: 50vw;
-                border: 0px solid rgb(0, 0, 0);
-                margin-right: 2rem;
+                border: 0px solid rgb(10, 10, 10); /* outline guide for sectioning */
+                margin-right: 4rem;
                 text-align: right;
 
                 h1.head1{
@@ -93,54 +94,86 @@ p.link{
     }
 
     section.content{
-        border: 0px solid rgb(255, 255, 255);
+        border: 0px solid rgb(255, 255, 255); /* outline guide for sectioning */
         margin-top: 1rem;
         height: 99vh;
         color: rgb(255, 255, 255);
         display: flex;
 
         .content_left{
-            background-color: black;
+            border: 1px solid #242424; /* outline guide for sectioning */
+            border-radius: 30px;
+            background-color: #000000;
             margin: 0 1rem 0 0;
-            padding-left: 1rem;
-            border: 5px solid whitesmoke;
+            padding: 2rem;
             width: 30vw;
         }
 
         .content_right{
-            background-color: black;
-            padding-left: 1rem;
-            border: 5px solid whitesmoke;
+            border: 1px solid #1b1b1b; /* outline guide for sectioning */
+            border-radius: 30px;
+            background-color: #000000;
+            padding: 2rem;
             width: 70vw;
         }
     }
 
-    section.gallery{
-        border: 5px solid rgb(255, 255, 255);
-        margin-top: 1rem;
-        padding-left: 1rem;
-        height: 98vh;
-        color: rgb(255, 255, 255);
-        display: flex;
+    section.gallery_container{
+        height: 95vh;
+        border: 0px solid #ffffff; /* outline guide for sectioning */
+        margin-top: 10rem;
+
+        h1.gallery_header{
+            border: 0px solid #ffffff; /* outline guide for sectioning */
+            color: #ffffff;
+            margin: 0 0 1rem 0;
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+        }
+        .gallery{
+            border: 0px solid #ffffff; /* outline guide for sectioning */
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+
+            .samples{
+                margin: 0 2rem 2rem 0;
+                border: 0px solid #ffffff; /* outline guide for sectioning */
+            }
+
+            img.image{
+                border-radius: 30px;
+                background-color: #000000;
+                border: 1px solid #2b2b2b; /* outline guide for sectioning */
+                padding: 1rem;
+                height: 55vh;
+                width: 42vh;
+                transition: 0.3s ease;
+            }
+
+            .buttons{
+                margin: 2rem 0 0 0;
+                text-align: center;
+            }
+        }
     }
 
     footer{
-        border: 0px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        border: 0px solid rgb(255, 255, 255); /* outline guide for sectioning */
         margin-top: 1rem;
         padding-left: 1rem;
         padding-top: .2rem;
-        height: 20vh;
-        background-color: rgb(133, 0, 0);
+        height: 50vh;
+        background-color: #000000;
 
         .footer_head{
             display: flex;
             justify-content: center;
-
-            h3.footer_title{
-                color: aliceblue;
-            }
+            color: white;
         }
-/* text*/
+
         .footer_content{
             padding: 1px;
 
