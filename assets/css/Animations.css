@@ -17,3 +17,19 @@ a.linky:hover{
 img.image:hover{
     transform: scale(1.05);
 }
+
+a.footer_link{
+    color: #b8b8b8;
+    margin: .8rem 0 0 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: helvetica;
+    font-weight: medium;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a.footer_link:hover{
+    color: white;
+    text-decoration: underline;
+}
