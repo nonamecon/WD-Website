@@ -128,10 +128,23 @@ p.link{
             .skills_top{
                 border: 0px solid #ffffff;
 
+                h3{
+                    margin: 5rem 0 0 0;
+                }
+
                 img.icons{
+                    margin: 2rem .5rem 0 0;
                     border-radius: 10px;
-                    height: 5vh;
-                    width: 5vh;
+                    height: 7vh;
+                    width: 7vh;
+                }
+
+                .applications{
+                    padding: 2px;
+                    height: .3rem;
+                    width: 25rem;
+                    margin: 0 0 0 0 ;
+                    border: 2px solid #ffffff;
                 }
             }
 
@@ -139,37 +152,45 @@ p.link{
                 border: 0px solid #ffffff;
 
                 h3{
-                    margin: 18rem 0 2rem 0;
+                    margin: 10rem 0 2rem 0;
                 }
 
-                h5{
-                    border: 0px solid #ffffff;
+                div.inline{
+                    display: flex;
+                    align-items: center;
+                    border: 0px solid white;
 
+                    p{
+                        margin: 0 0 0 1rem;
+                        font-size: 12px;
+                        font-style: italic;
+                        color: #b8b8b8
+                    }
                 }
                 .language{
                     padding: 2px;
-                    height: .5rem;
+                    height: .3rem;
                     width: 25rem;
                     margin: 0 0 0 0 ;
                     border: 2px solid #ffffff;
 
                     .c_code{
                         color: black;
-                        height: .5rem;
-                        width: 5rem;
+                        height: .3rem;
+                        width: 3rem;
                         background-color: #ffffff;
                     }
 
                     .html_code{
                         color: black;
-                        height: .5rem;
+                        height: .3rem;
                         width: 8rem;
                         background-color: #ffffff;
                     }
 
                     .css_code{
                         color: black;
-                        height: .5rem;
+                        height: .3rem;
                         width: 8rem;
                         background-color: #ffffff;
                     }
