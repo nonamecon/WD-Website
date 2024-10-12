@@ -100,6 +100,7 @@ p.link{
         color: rgb(255, 255, 255);
         display: flex;
 
+
         h1.header{
             border: 0px solid #ffffff; /* outline guide for sectioning */
             color: #ffffff;
@@ -109,13 +110,111 @@ p.link{
 
         .content_left{
             border: 0px solid #ffffff; /* outline guide for sectioning */
-            margin: 0 5rem 0 0;
+            margin: 0 5rem 0 5rem;
             width: 30vw;
         }
 
         .content_right{
-            border: 0px solid #ffffff; /* outline guide for sectioning */
+            border: 2 solid #ffffff; /* outline guide for sectioning */
             width: 70vw;
+
+            .content_right_container{
+                display: flex;
+                height: 87.5vh;
+                border: 0px solid #ffffff;  /* outline guide for sectioning */
+
+                h4{
+                    text-align: center;
+                }
+
+                p{
+                    margin-top: 2rem;
+                    text-align: center;
+                    font-size: 16px;
+                    font-style: italic;
+                    color: #b8b8b8
+                }
+
+                .content_abes{
+                    margin: 0 2rem 0 0;
+
+                    .content_bg_abes{
+                        border-radius: 30px;
+                        border: 1px solid #383838; /* outline guide for sectioning */
+                        background-image: url('/assets/img/abes.jpg');
+                        background-size: cover;
+                        background-position: center;
+                        width: 15.8vw;
+                        height: 60vh;
+                    }
+
+                    .content_abes_info{
+                        border-radius: 30px;
+                        border: 1px solid #383838; /* outline guide for sectioning */
+                        background-color: #000000;
+                        margin: 1rem 0 0 0;
+                        padding-top: 1rem;
+                        padding-right: 1rem;
+                        padding-left: 1rem;
+                        width: 14vw;
+                        height: 23.7vh;
+                    }
+                }
+
+                .content_esps{
+                    width: 15.8vw;
+                    margin: 0 2rem 0 0;
+
+                    .content_bg_esps{
+                        border-radius: 30px;
+                        border: 1px solid #383838; /* outline guide for sectioning */
+                        background-image: url('/assets/img/esps2.png');
+                        background-size: cover;
+                        background-position: center;
+                        width: 15.8vw;
+                        height: 63.5vh;
+                    }
+
+                    .content_esps_info{
+                        border-radius: 30px;
+                        border: 1px solid #383838; /* outline guide for sectioning */
+                        background-color: #000000;
+                        margin: 1rem 0 0 0;
+                        padding-top: 1rem;
+                        padding-right: 1rem;
+                        padding-left: 1rem;
+                        width: 14vw;
+                        height: 20vh;
+                    }
+                }
+
+                .content_feu{
+                    width: 15.8vw;
+                    margin: 0 2rem 0 0;
+
+                    .content_bg_feu{
+                        border-radius: 30px;
+                        border: 1px solid #383838; /* outline guide for sectioning */
+                        background-image: url('/assets/img/feu.jpg');
+                        background-size: cover;
+                        background-position: center;
+                        width: 15.8vw;
+                        height: 65vh;
+                    }
+
+                    .content_feu_info{
+                        border-radius: 30px;
+                        border: 1px solid #383838; /* outline guide for sectioning */
+                        background-color: #000000;
+                        margin: 1rem 0 0 0;
+                        padding-top: 1rem;
+                        padding-right: 1rem;
+                        padding-left: 1rem;
+                        width: 14vw;
+                        height: 18.5vh;
+                    }
+                }
+            }
         }
 
         .content{
@@ -152,7 +251,7 @@ p.link{
                 border: 0px solid #ffffff;
 
                 h3{
-                    margin: 10rem 0 2rem 0;
+                    margin: 10rem 0 1rem 0;
                 }
 
                 div.inline{
@@ -169,29 +268,29 @@ p.link{
                 }
                 .language{
                     padding: 2px;
-                    height: .3rem;
+                    height: .7rem;
                     width: 25rem;
                     margin: 0 0 0 0 ;
                     border: 2px solid #ffffff;
 
                     .c_code{
                         color: black;
-                        height: .3rem;
-                        width: 3rem;
+                        height: .7rem;
+                        width: 2rem;
                         background-color: #ffffff;
                     }
 
                     .html_code{
                         color: black;
-                        height: .3rem;
-                        width: 8rem;
+                        height: .7rem;
+                        width: 4.5rem;
                         background-color: #ffffff;
                     }
 
                     .css_code{
                         color: black;
-                        height: .3rem;
-                        width: 8rem;
+                        height: .7rem;
+                        width: 4.5rem;
                         background-color: #ffffff;
                     }
 
