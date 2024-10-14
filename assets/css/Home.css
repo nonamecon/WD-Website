@@ -90,6 +90,10 @@ p.link{
                     font-size: 32px;
                     font-weight:normal;
                 }
+
+                p{
+                    line-height: 24px;
+                }
             }
     }
 
